@@ -11,26 +11,23 @@ Student(int r, string n)
 {
 rollNo = r;
 name = n;
-cout &lt;&lt; &quot;Student object created&quot; &lt;&lt; endl;
-
-10
-
+cout <<"Student object created" << endl;
 }
-// Member function
+//member function
 void display()
 {
-cout &lt;&lt; &quot;Roll Number: &quot; &lt;&lt; rollNo &lt;&lt; endl;
-cout &lt;&lt; &quot;Name: &quot; &lt;&lt; name &lt;&lt; endl;
+cout <<"roll number:"<<rollNo<<endl;
+cout <<"name:"<<name<<endl;
 }
 // Destructor
 ~Student()
 {
-cout &lt;&lt; &quot;Student object destroyed&quot; &lt;&lt; endl;
+cout <<"student object destroyed"<<endl;
 }
 };
 int main()
 {
-Student s1(101, &quot;Arun&quot;);
+Student s1(101, "arun");
 s1.display();
 return 0;
 }
